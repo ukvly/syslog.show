@@ -1,0 +1,32 @@
+title: Microkernel Valley Podcast
+url: http://localhost:4000
+
+author_url: "http://ukvly.org/"
+email: "podcast@ukvly.org"
+keywords: [microkernel, l4, podcast, dresden]
+itunes_categories: [Technology]
+episodes_per_feed_page: 100
+
+player_theme: default-dark
+twitter_nick: ukvly
+
+language: en
+explicit: "no"
+
+license: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+### Feed links, optional
+itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
+# bitlove_url: https://bitlove.org/myaccount
+# fyyd_url: https://fyyd.de/podcast/myaccount/myid
+# gpodder_url: https://gpodder.net/podcast/mypodcast
+
+### Additional Feeds, optional
+#  itunes: http://itunes.apple.com/de/podcast/podcast_name/id42424242
+#  torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
+#  torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
+
+gems: [jekyll-octopod]
+theme: jekyll-bootflat
