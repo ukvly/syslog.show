@@ -28,5 +28,5 @@ itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
 #  torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
 #  torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
 
-gems: [jekyll-octopod]
+plugins: [jekyll-octopod]
 theme: jekyll-bootflat
