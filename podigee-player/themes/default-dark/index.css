@@ -59,9 +59,8 @@
       padding: 0;
       width: 70px; }
   .podcast-player .controls-advanced {
-    bottom: 8px;
-    display: none;
     left: 155px;
+    margin-top: -1px;
     position: absolute; }
     .podcast-player .controls-advanced button {
       color: #c8c8c8;
@@ -81,12 +80,11 @@
     .podcast-player .progress-bar .progress-bar-time-played {
       color: #c8c8c8;
       cursor: pointer;
-      display: none;
       font-size: 14px;
-      left: 92px;
+      left: 85px;
       position: absolute;
       text-align: left;
-      top: 71px;
+      top: 69px;
       width: 70px; }
     .podcast-player .progress-bar .progress-bar-time-played:hover {
       color: #f57150; }
@@ -165,7 +163,7 @@
     .podcast-player .panels .chaptermarks ul,
     .podcast-player .panels .playlist ul {
       display: block;
-      height: calc(100% - 54px);
+      height: calc(100% - 90px);
       margin: 0;
       padding: 0;
       overflow-y: scroll; }
@@ -226,6 +224,15 @@
           .podcast-player .panels .playlist ul li a svg {
             color: #c8c8c8;
             fill: currentColor; }
+    .podcast-player .panels .chaptermarks .buttons,
+    .podcast-player .panels .playlist .buttons {
+      padding-top: 5px;
+      position: static;
+      text-align: center; }
+      .podcast-player .panels .chaptermarks .buttons button,
+      .podcast-player .panels .playlist .buttons button {
+        font-size: 14px;
+        width: auto; }
   .podcast-player .panels .playlist ul li span {
     margin-left: 0; }
   .podcast-player .panels .episode-info {
@@ -308,6 +315,8 @@
       .podcast-player .footer .podcast-connections-item svg {
         fill: currentColor;
         vertical-align: middle; }
+      .podcast-player .footer .podcast-connections-item.podcast-connections-item-alexa {
+        margin-left: 0; }
     .podcast-player .footer .all-episodes-link {
       float: right;
       font-size: 14px;
@@ -374,7 +383,16 @@
     position: absolute;
     top: -2px; }
   .podcast-player.mode-script .panels .transcript .transcript-text {
-    height: calc(100% - 90px); } }
+    height: calc(100% - 90px); }
+  .podcast-player.mode-script .footer {
+    padding: 12px 6px; }
+    .podcast-player.mode-script .footer .subscribe-button {
+      font-size: 12px; }
+    .podcast-player.mode-script .footer .podcast-connections-item {
+      margin-left: 5px; }
+    .podcast-player.mode-script .footer .all-episodes-link {
+      font-size: 12px;
+      margin-top: 4px; } }
 
 @media (max-width: 500px) {
   .podcast-player.mode-iframe .cover-image {
