@@ -13,9 +13,9 @@ twitter_nick: ukvly
 language: en
 explicit: "no"
 
-license: CC BY 4.0
-license_url: https://creativecommons.org/licenses/by/4.0/
-license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
+license: CC BY-SA 4.0
+license_url: https://creativecommons.org/licenses/by-sa/4.0/
+license_image_url: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
 ### Feed links, optional
 itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
