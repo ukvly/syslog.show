@@ -21,12 +21,14 @@ license_url: https://creativecommons.org/licenses/by-sa/4.0/
 license_image_url: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
 ### Feed links, optional
+itunes_url: https://podcasts.apple.com/de/podcast/syslog/id1492462799
 # itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
 # bitlove_url: https://bitlove.org/myaccount
 # fyyd_url: https://fyyd.de/podcast/myaccount/myid
 # gpodder_url: https://gpodder.net/podcast/mypodcast
 
 ### Additional Feeds, optional
+itunes: https://podcasts.apple.com/de/podcast/syslog/id1492462799
 #  itunes: http://itunes.apple.com/de/podcast/podcast_name/id42424242
 #  torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
 #  torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
