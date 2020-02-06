@@ -1,0 +1,9 @@
+00:00:00.000 Intro
+00:02:01.896 Genode History
+00:09:41.303 Foundations of Genode Labs
+00:16:21.163 How to earn money?
+00:22:39.251 Evolution of Genode
+00:36:16.706 Sculpt OS
+00:43:31.507 Genode in 2020
+00:51:49.071 Getting Started
+00:55:37.826 Outro
