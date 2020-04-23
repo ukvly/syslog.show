@@ -1,0 +1,12 @@
+00:00:00.000 Intro
+00:01:14.721 Barkhausen Institute
+00:07:51.071 PEPP-PT
+00:14:16.216 Contact Tracing Technical Aspects
+00:20:35.478 Implementation Issues
+00:29:08.386 Centralized vs. Decentralized & Privacy
+00:48:49.843 Other Development Aspects
+00:53:57.705 Political Considerations
+01:04:36.814 Michael's Involvement in PEPP-PT
+01:09:00.203 Shifting Requirements
+01:10:12.205 European Solutions
+01:13:13.537 Closing Remarks
