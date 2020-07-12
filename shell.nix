@@ -13,6 +13,8 @@ in pkgs.mkShell {
     pkgs.niv
 
     # To update octopod.
+    pkgs.bundix
+    pkgs.bundler
     pkgs.ruby
   ];
 }
