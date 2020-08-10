@@ -14,7 +14,7 @@ twitter_nick: ukvly
 language: en
 explicit: "no"
 
-exclude: [ "nix" ]
+exclude: [ "nix", "default.nix", "shell.nix" ]
 
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
