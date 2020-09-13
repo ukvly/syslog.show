@@ -1,0 +1,14 @@
+00:00:00.000 Intro
+00:04:38.159 Charles University
+00:08:14.704 Huawei Research Center in Dresden
+00:10:10.417 Early History of HelenOS
+00:15:06.489 Publication & Professionalization
+00:19:57.091 Manpower in OS Development
+00:22:03.824 HelenOS is practically usable
+00:25:01.138 Design Aspects
+00:33:53.398 Avoidance of Anti-Patterns
+00:38:25.661 Boot into a usable System
+00:42:15.693 HelenOS as Teaching Tool
+00:48:27.810 Julian randomly insulting People
+00:49:47.126 The Golden Area of Microkernels
+00:59:37.369 Outro
