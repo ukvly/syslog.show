@@ -1,0 +1,17 @@
+name: "Upload"
+description: "Upload the Jekyll-generated website to syslog.show"
+on:
+  push:
+    branches:
+      - master
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v11
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+    - run:
+        - nix-build ./nix/release.nix -A upload
+        - ./result/bin/upload $WWW_USER $WWW_PASS $WWW_HOST

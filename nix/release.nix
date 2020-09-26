@@ -5,4 +5,6 @@ rec {
   octopod = pkgs.callPackage ./octopod { };
 
   syslog = pkgs.callPackage ./build.nix { inherit octopod; };
+
+  upload = pkgs.callPackage ./upload.nix { inherit syslog; };
 }
