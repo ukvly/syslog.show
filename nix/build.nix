@@ -1,10 +1,10 @@
-{ stdenv, octopod, nix-gitignore }:
+{ stdenv, octopod, gitignore }:
 
 stdenv.mkDerivation {
   pname = "ukvly-podcast";
   version = "0";
 
-  src = nix-gitignore.gitignoreSource [ ] ./..;
+  src = gitignore.gitignoreSource ./..;
 
   nativeBuildInputs = [ octopod ];
 
