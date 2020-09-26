@@ -14,9 +14,8 @@ fi
 
 USER=$1
 PASS=$2
-
 HOST=$3
 
-exec lftp -e "mirror -R  --transfer-all --scan-all-first ${SYSLOG_WWW} public_html" -u "$USER","$PASS" "$HOST"
-
-
+echo ">> Uploading to $HOST..."
+lftp -e "mirror -R  --transfer-all --scan-all-first ${SYSLOG_WWW} public_html" -u "$USER","$PASS" "$HOST"
+echo ">> Upload done!"
