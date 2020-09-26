@@ -1,11 +1,10 @@
 name: "Upload"
-description: "Upload the Jekyll-generated website to syslog.show"
 on:
   push:
     branches:
       - master
 jobs:
-  tests:
+  upload:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -15,6 +14,11 @@ jobs:
     - uses: cachix/cachix-action@v6
       with:
         name: blitz
-    - run:
-        - nix-build ./nix/release.nix -A upload
-        - ./result/bin/upload $WWW_USER $WWW_PASS $WWW_HOST
+    - shell: sh
+      env: # Or as an environment variable
+        WWW_USER: ${{ secrets.WWW_USER }}
+        WWW_PASS: ${{ secrets.WWW_PASS }}
+        WWW_HOST: ${{ secrets.WWW_HOST }}
+      run: |
+        nix-build ./nix/release.nix -A upload
+        ./result/bin/upload "$WWW_USER" "$WWW_PASS" "$WWW_HOST"
