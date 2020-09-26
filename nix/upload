@@ -17,5 +17,5 @@ PASS=$2
 HOST=$3
 
 echo ">> Uploading to $HOST..."
-lftp -e "mirror -R  --transfer-all --scan-all-first ${SYSLOG_WWW} public_html" -u "$USER","$PASS" "$HOST"
+lftp -e "mirror -R -e -p -v --transfer-all --scan-all-first ${SYSLOG_WWW} public_html" -u "$USER","$PASS" "$HOST"
 echo ">> Upload done!"
