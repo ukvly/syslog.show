@@ -16,11 +16,11 @@ Dieser Podcast ist ein privates und nicht-kommerzielles Projekt von
 
 Julian Stecklina
 
-Hopfenweg 20
+C/Gloria Fuertes 1
 
-01099 Dresden
+07009 Palma
 
-Germany
+Spain
 
 ## Kontaktaufnahme
 
